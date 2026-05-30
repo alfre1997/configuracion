@@ -1,42 +1,41 @@
 {
-    "Payloads": [
-        {
-            "port": "443",
-            "host": "[cdnh]",
-            "friendly_name": "A - 🔥 Filter Breaker (Autorand 01)",
-            "sausage": "[cf]",
-            "payload": "GET / HTTP/1.1[crlf]Host: [proxy][crlf]Connection:  Keep-Alive[crlf]User-Agent:  [ua][crlf][crlf][lf][brand] / HTTP/1.1[crlf]Host: [cf][crlf]Upgrade:  [rand][rand][crlf][crlf]",
-            "query": "normal",
-            "category": "ocskp",
-            "message": "🇮🇷 2026 AUTO SELECT 🇮🇷",
-            "method": "http",
-            "sslws": "true",
-            "isHostSni": "false",
-            "isAutoSelect": "true",
-            "isHostResolve": "false",
-            "dothost": "",
-            "allowInsecure": "false",
-            "tlsVersion": "3",
-            "reconnectSeconds": "5",
-            "isProxyProtected": "true"
-        },
-        {
-            "port": "443",
-            "host": "[sr]",
-            "friendly_name": "A - 🔥 Filter Breaker (Autorand 02)",
-            "sausage": "[cf]",
-            "payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: [proxy][crlf]Connection:  Keep-Alive[crlf]User-Agent:  [ua][crlf][crlf][lf][brand] / HTTP/1.1[crlf]Host: [cf][crlf]Upgrade:  [rand][rand][crlf][crlf]",
-            "query": "normal",
-            "category": "ocskp",
-            "message": "🇮🇷 2026 AUTO SELECT 🇮🇷",
-            "method": "http",
-            "sslws": "true",
-            "isHostSni": "false",
-            "isAutoSelect": "true",
-            "isHostResolve": "false",
-            "dothost": "",
-            "allowInsecure": "false",
-            "tlsVersion": "3",
-            "reconnectSeconds": "5",
-            "isProxyProtected": "false"
-        }
+    "name": "Tigo",
+    "description": "",
+    "mode": "SSH_DIRECT",
+    "tls_version": "TLSv1.2",
+    "sorter": 1,
+    "status": "ACTIVE",
+    "auth": {
+        "username": "sshkit-1030535405",
+        "password": "12345678",
+        "v2ray_uuid": null
+    },
+    "category": {
+        "name": "TIGO",
+        "color": "#001A640D",
+        "sorter": 1
+    },
+    "config_openvpn": null,
+    "config_payload": {
+        "payload": "GET / HTTP/1.2[crlf]Host: sdk.iad-03.braze.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: ssh-sg1.sshkit.org[crlf]Upgrade: Websocket[]Referer: close[crlf][crlf]",
+        "sni": null
+    },
+    "config_v2ray": null,
+    "dns_server": {
+        "dns1": "1.1.1.1",
+        "dns2": "1.0.0.1"
+    },
+    "icon": "",
+    "proxy": {
+        "host": null,
+        "port": null
+    },
+    "server": {
+        "host": "sdk.iad-03.braze.com",
+        "port": 80
+    },
+    "udp_ports": [
+        7300
+    ],
+    "url_check_user": ""
+}
