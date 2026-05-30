@@ -1,61 +1,42 @@
 {
-  "Version": "1.1",
-  "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
-  "UrlUpdate": "https://raw.githubusercontent.com/alfre1997/configuracion/main/anonymouspy.json",
-  "Sms": "https://raw.githubusercontent.com/alfre1997/configuracion/main/anonymouspy.json",
-  "EmailFeedback": "https://wa.me/+595971935582",
-  "UrlContato": "",
-  "UrlTermos": "",
-  "CheckUser": "true",
-  "FormatCheck": "yyyymmdd",
-  "Udp": [
-    {
-      "Porta": "7300"
-    }
-  ],
-  "Servers": [
-    {
-      "Name": "ANONYMOUS",
-      "TYPE": "premium",
-      "FLAG": "py.png",
-      "ServerIP": "ayuda.tigo.com.py",
-      "CheckUser": "",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    }
-  ],
-  "Networks": [
-    {
-      "Name": "TIGO PY🇵🇾",
-      "FLAG": "vip",
-      "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "ayuda.tigo.com.py",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIGO PY1🇵🇾",
-      "FLAG": "vip",
-      "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "ayuda.tigo.com.py",
-      "TlsIP": "ayuda.tigo.com.py",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIGO PY3🇱🇷",
-      "FLAG": "tim",
-      "Payload": "GET wess://d18lklptg0ko41.cloudfront.net HTTP/1.1 [lf]Host: d18lklptg0ko41.cloudfront.net [lf]Upgrade: websocket [lf]Connection: Upgrade[lf][lf]",
-      "SNI": "52.85.213.227",
-      "TlsIP": "52.85.213.227",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    }
-  ]
-}
+    "Payloads": [
+        {
+            "port": "443",
+            "host": "[cdnh]",
+            "friendly_name": "A - 🔥 Filter Breaker (Autorand 01)",
+            "sausage": "[cf]",
+            "payload": "GET / HTTP/1.1[crlf]Host: [proxy][crlf]Connection:  Keep-Alive[crlf]User-Agent:  [ua][crlf][crlf][lf][brand] / HTTP/1.1[crlf]Host: [cf][crlf]Upgrade:  [rand][rand][crlf][crlf]",
+            "query": "normal",
+            "category": "ocskp",
+            "message": "🇮🇷 2026 AUTO SELECT 🇮🇷",
+            "method": "http",
+            "sslws": "true",
+            "isHostSni": "false",
+            "isAutoSelect": "true",
+            "isHostResolve": "false",
+            "dothost": "",
+            "allowInsecure": "false",
+            "tlsVersion": "3",
+            "reconnectSeconds": "5",
+            "isProxyProtected": "true"
+        },
+        {
+            "port": "443",
+            "host": "[sr]",
+            "friendly_name": "A - 🔥 Filter Breaker (Autorand 02)",
+            "sausage": "[cf]",
+            "payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: [proxy][crlf]Connection:  Keep-Alive[crlf]User-Agent:  [ua][crlf][crlf][lf][brand] / HTTP/1.1[crlf]Host: [cf][crlf]Upgrade:  [rand][rand][crlf][crlf]",
+            "query": "normal",
+            "category": "ocskp",
+            "message": "🇮🇷 2026 AUTO SELECT 🇮🇷",
+            "method": "http",
+            "sslws": "true",
+            "isHostSni": "false",
+            "isAutoSelect": "true",
+            "isHostResolve": "false",
+            "dothost": "",
+            "allowInsecure": "false",
+            "tlsVersion": "3",
+            "reconnectSeconds": "5",
+            "isProxyProtected": "false"
+        
