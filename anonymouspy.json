@@ -1,38 +1,61 @@
 {
   "Version": "1.1",
-  "ReleaseNotes": "NUEVA VERSIÓN",
-  "Sms": "https://wa.me/+595971935582",
+  "ReleaseNotes": "LISTA ACTUALIZADA - ANONYMOUS PY",
+  "UrlUpdate": "alfre1997/configuracion/main/anonymouspy.json",
+  "Sms": "alfre1997/configuracion/main/anonymouspy.json",
+  "EmailFeedback": "https://wa.me/+595971935582",
+  "UrlContato": "",
+  "UrlTermos": "",
+  "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
   "Servers": [
     {
-      "Name": "ANONYMOUS PY",
+      "Name": "ANONYMOUS",
       "TYPE": "premium",
       "FLAG": "py.png",
       "ServerIP": "ayuda.tigo.com.py",
+      "CheckUser": "false",
       "ServerPort": "22",
-      "SSLPort": "443"
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
     {
       "Name": "TIGO PY 🇵🇾",
-      "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "ayuda.tigo.com.py",
-      "TlsIP": "ayuda.tigo.com.py"
+      "FLAG": "vip",
+      "Payload": "GET / HTTP/1.2[crlf]Host: sdk.iad-03.braze.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: ssh-nl1.sshkit.org[crlf]Upgrade: Websocket[]Referer: close[crlf][crlf]",
+      "SNI": "sdk.iad-03.braze.com",
+      "TlsIP": "ayuda.tigo.com.py",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIGO PY1 🇵🇾",
+      "FLAG": "vip",
       "Payload": "GET h2://ayuda.tigo.com.py HTTP/1.1[crlf]Host: elpro2022.vpsanonymous.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "ayuda.tigo.com.py",
-      "TlsIP": "ayuda.tigo.com.py"
-    }
-  ],
-  "config": [
+      "TlsIP": "ayuda.tigo.com.py",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
     {
-      "name": "TIGO PY 🇵🇾",
-      "host": "ayuda.tigo.com.py",
-      "port": 80,
-      "payload": "GET / HTTP/1.2[crlf]Host: sdk.iad-03.braze.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: ssh-nl1.sshkit.org[crlf]Upgrade: Websocket[]Referer: close[crlf][crlf]",
-      "sni": "sdk.iad-03.braze.com"
+      "Name": "TIGO PY3 🇱🇷",
+      "FLAG": "tim",
+      "Payload": "GET wess://d18lklptg0ko41.cloudfront.net HTTP/1.1 [lf]Host: d18lklptg0ko41.cloudfront.net [lf]Upgrade: websocket [lf]Connection: Upgrade[lf][lf]",
+      "SNI": "52.85.213.227",
+      "TlsIP": "52.85.213.227",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     }
   ]
 }
