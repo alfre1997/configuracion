@@ -37,5 +37,5 @@
     "udp_ports": [
         7300
     ],
-    "url_check_user": ""
+    "url_check_user": "https://raw.githubusercontent.com/alfre1997/configuracion/refs/heads/main/anonymouspy.json"
 }
