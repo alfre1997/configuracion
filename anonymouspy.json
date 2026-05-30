@@ -39,4 +39,4 @@
             "tlsVersion": "3",
             "reconnectSeconds": "5",
             "isProxyProtected": "false"
-        
+        }
